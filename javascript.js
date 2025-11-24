@@ -1,4 +1,3 @@
-// Questions array
 const questions = [
     {
         q: "HTML stands for?",
@@ -114,3 +113,4 @@ function restartQuiz() {
     resultScreen.classList.add("hide");
     startScreen.classList.remove("hide");
 }
+
