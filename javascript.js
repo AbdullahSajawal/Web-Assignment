@@ -41,7 +41,7 @@ document.getElementById("startBtn").addEventListener("click", startQuiz);
 document.getElementById("nextBtn").addEventListener("click", nextQuestion);
 document.getElementById("restartBtn").addEventListener("click", restartQuiz);
 
-// Start Quiz
+
 function startQuiz() {
     startScreen.classList.add("hide");
     quizScreen.classList.remove("hide");
@@ -113,4 +113,5 @@ function restartQuiz() {
     resultScreen.classList.add("hide");
     startScreen.classList.remove("hide");
 }
+
 
