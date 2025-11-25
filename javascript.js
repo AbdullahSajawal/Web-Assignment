@@ -1,11 +1,11 @@
 const questions = [
     {
-        q: "HTML stands for?",
-        choices: ["Hyper Text Markup Language", "High Tech Multi Language", "Hyper Tool Markup"],
+        q: "2+2=?",
+        choices: ["4", "10", "2"],
         answer: 0
     },
     {
-        q: "CSS is used for styling (True/False)",
+        q: "Sky is blue? (True/False)",
         choices: ["True", "False"],
         answer: 0
     },
@@ -15,7 +15,7 @@ const questions = [
         answer: 0
     },
     {
-        q: "JavaScript runs in the browser. (True/False)",
+        q: "This site is made by abdullah. (True/False)",
         choices: ["True", "False"],
         answer: 0
     },
@@ -113,5 +113,6 @@ function restartQuiz() {
     resultScreen.classList.add("hide");
     startScreen.classList.remove("hide");
 }
+
 
 
